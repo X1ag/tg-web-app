@@ -17,8 +17,13 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
- 
-  "browserslist": {
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+
     "production": [
       ">0.2%",
       "not dead",
@@ -30,4 +35,3 @@
       "last 1 safari version"
     ]
   }
-}
