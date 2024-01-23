@@ -14,6 +14,6 @@ export function useTelegram(){
 	return {
 		onClose,
 		tg,
-		user: tg.initDataUnsage?.user,
+		user: tg.initDataUnsafe?.user,
 	}
 }
