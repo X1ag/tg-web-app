@@ -22,7 +22,7 @@ const Form = () => {
 		} else {
 			tg.MainButton.show();
 		}
-	}, [country,street])
+	}, [country, street, city, house])
 
 	const onChangeCountry = (e) => {
 		setCountry(e.target.value)
